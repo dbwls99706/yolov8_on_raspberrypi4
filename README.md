@@ -24,4 +24,4 @@
    
 4. Launch the YOLOv8 node:
    ```bash
-   ros2 launch yolov8_on_raspberrypi4 <launch_file>
+   ros2 launch yolov8_ros detect_camera_node
