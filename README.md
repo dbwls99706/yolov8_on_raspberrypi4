@@ -16,15 +16,12 @@
    
 2. Install ROS2 dependencies:
    ```bash
-   코드 복사
    rosdep install --from-paths src --ignore-src -r -y
    
 3. Build the package:
    ```bash
-   코드 복사
    colcon build
    
 4. Launch the YOLOv8 node:
    ```bash
-   코드 복사
    ros2 launch yolov8_on_raspberrypi4 <launch_file>
