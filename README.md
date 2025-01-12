@@ -12,6 +12,7 @@
 ## Installation:
 1. Clone the repository:
    ```bash
+   cd ~/ros2_ws/src
    git clone https://github.com/dbwls99706/yolov8_on_raspberrypi4.git
    
 2. Install ROS2 dependencies:
