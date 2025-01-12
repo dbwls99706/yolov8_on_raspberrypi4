@@ -13,16 +13,18 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/dbwls99706/yolov8_on_raspberrypi4.git
-Install ROS2 dependencies:
+   
+2. Install ROS2 dependencies:
    ```bash
    코드 복사
    rosdep install --from-paths src --ignore-src -r -y
-Build the package:
+   
+3. Build the package:
    ```bash
    코드 복사
    colcon build
-Usage:
-Launch the YOLOv8 node:
+   
+4. Launch the YOLOv8 node:
    ```bash
    코드 복사
    ros2 launch yolov8_on_raspberrypi4 <launch_file>
